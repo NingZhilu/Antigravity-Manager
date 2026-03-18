@@ -29,7 +29,7 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ${{ github.repository_owner }}/antigravity-manager:latest
-            ${{ github.repository_owner }}/antigravity-manager:${{ github.ref_name }}
+            chromacle/antigravity-manager:latest
+            chromacle/antigravity-manager:${{ github.ref_name }}
           build-args: |
             USE_MIRROR=false
